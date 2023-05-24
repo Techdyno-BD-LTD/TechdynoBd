@@ -4514,8 +4514,10 @@ input, textarea {
 .header-section {
   width: 100%;
   z-index: 999;
-  background: -webkit-gradient(linear, left top, right top, from(rgb(230, 232, 234)), color-stop(66%, rgba(230, 232, 234, 0.1)), to(rgba(230, 232, 234, 0)));
-  background: linear-gradient(90deg, rgb(230, 232, 234) 0%, rgba(230, 232, 234, 0.1) 66%, rgba(230, 232, 234, 0) 100%);
+  /* background: -webkit-gradient(linear, left top, right top, from(rgb(230, 232, 234)), color-stop(66%, rgba(230, 232, 234, 0.1)), to(rgba(230, 232, 234, 0)));
+  background: linear-gradient(90deg, rgb(230, 232, 234) 0%, rgba(230, 232, 234, 0.1) 66%, rgba(230, 232, 234, 0) 100%); */
+  background: #0784BD;
+  color: #0784BD;
 }
 
 .header-btn-link .btn {
@@ -4568,11 +4570,11 @@ input, textarea {
   font-weight: 700;
   line-height: 106px;
   display: inline-block;
-  color: #101320;
+  color: white;
   position: relative;
 }
 .header-nav > li > a:hover {
-  color: #1b5fc7;
+  color: white;
 }
 .header-nav .has-dropdown {
   position: relative;
